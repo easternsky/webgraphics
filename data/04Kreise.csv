@@ -1,0 +1,590 @@
+Schlüsselnummer,Regionale Bezeichnung,Kreis / Kreisfreie Stadt,NUTS3,Fläche in km²,Bevölkerung insgesamt,Bevölkerung männlich,Bevölkerung weiblich,Einwohner je km²
+,,,,,,,,
+01,Schleswig-Holstein,,,,,,,
+01001,Kreisfreie Stadt,"Flensburg, Stadt",DEF01,"    56,74",   83 971,   41 322,   42 649,   1 480
+01002,Kreisfreie Stadt,"Kiel, Landeshauptstadt",DEF02,"    118,65",   241 533,   116 951,   124 582,   2 036
+01003,Kreisfreie Stadt,"Lübeck, Hansestadt",DEF03,"    214,21",   212 958,   101 734,   111 224,    994
+01004,Kreisfreie Stadt,"Neumünster, Stadt",DEF04,"    71,63",   77 058,   37 606,   39 452,   1 076
+01051,Kreis,Dithmarschen,DEF05,"   1 428,11",   132 665,   65 124,   67 541,    93
+01053,Kreis,Herzogtum Lauenburg,DEF06,"   1 263,01",   189 043,   92 291,   96 752,    150
+01054,Kreis,Nordfriesland,DEF07,"   2 082,76",   161 923,   78 853,   83 070,    78
+01055,Kreis,Ostholstein,DEF08,"   1 392,65",   197 835,   95 235,   102 600,    142
+01056,Kreis,Pinneberg,DEF09,"    664,28",   301 223,   146 892,   154 331,    453
+01057,Kreis,Plön,DEF0A,"   1 083,18",   126 643,   61 181,   65 462,    117
+01058,Kreis,Rendsburg-Eckernförde,DEF0B,"   2 186,26",   268 075,   131 328,   136 747,    123
+01059,Kreis,Schleswig-Flensburg,DEF0C,"   2 071,35",   195 135,   96 268,   98 867,    94
+01060,Kreis,Segeberg,DEF0D,"   1 344,38",   263 202,   129 249,   133 953,    196
+01061,Kreis,Steinburg,DEF0E,"   1 056,12",   130 017,   63 915,   66 102,    123
+01062,Kreis,Stormarn,DEF0F,"    766,33",   234 674,   114 044,   120 630,    306
+,,Kreisfreie Städte,,"    461,23",   615 520,   297 613,   317 907,   1 335
+,,Kreise,,"   15 338,43",  2 200 435,  1 074 380,  1 126 055,    143
+,,Insgesamt,,"   15 799,66",  2 815 955,  1 371 993,  1 443 962,    178
+02,Hamburg,,,,,,,
+02000,Kreisfreie Stadt,"Hamburg, Freie und Hansestadt",DE600,"    755,30",  1 746 342,   847 783,   898 559,   2 312
+03,Niedersachsen,,,,,,,
+031,Statistische Region Braunschweig,,,,,,,
+03101,Kreisfreie Stadt,"Braunschweig, Stadt",DE911,"    192,17",   247 227,   121 376,   125 851,   1 287
+03102,Kreisfreie Stadt,"Salzgitter, Stadt",DE912,"    223,92",   98 197,   47 873,   50 324,    439
+03103,Kreisfreie Stadt,"Wolfsburg, Stadt",DE913,"    204,06",   122 457,   60 349,   62 108,    600
+03151,Landkreis,Gifhorn,DE914,"   1 562,83",   171 475,   85 335,   86 140,    110
+03152,Landkreis,Göttingen,DE915,"   1 117,24",   248 249,   121 071,   127 178,    222
+03153,Landkreis,Goslar,DE916,"    965,29",   137 833,   67 603,   70 230,    143
+03154,Landkreis,Helmstedt,DE917,"    674,00",   90 423,   44 586,   45 837,    134
+03155,Landkreis,Northeim,DE918,"   1 267,06",   134 661,   65 926,   68 735,    106
+03156,Landkreis,Osterode am Harz,DE919,"    636,02",   74 367,   36 275,   38 092,    117
+03157,Landkreis,Peine,DE91A,"    534,93",   130 147,   64 003,   66 144,    243
+03158,Landkreis,Wolfenbüttel,DE91B,"    722,55",   119 900,   58 993,   60 907,    166
+032,Statistische Region Hannover,,,,,,,
+03241,Landkreis,Region Hannover,DE929,"   2 290,77",  1 119 526,   543 339,   576 187,    489
+03251,Landkreis,Diepholz,DE922,"   1 987,94",   209 955,   104 085,   105 870,    106
+03252,Landkreis,Hameln-Pyrmont,DE923,"    796,14",   147 755,   70 939,   76 816,    186
+03254,Landkreis,Hildesheim,DE925,"   1 205,95",   274 519,   132 832,   141 687,    228
+03255,Landkreis,Holzminden,DE926,"    692,58",   71 877,   35 354,   36 523,    104
+03256,Landkreis,Nienburg (Weser),DE927,"   1 398,97",   119 848,   59 209,   60 639,    86
+03257,Landkreis,Schaumburg,DE928,"    675,57",   155 599,   75 626,   79 973,    230
+033,Statistische Region Lüneburg,,,,,,,
+03351,Landkreis,Celle,DE931,"   1 545,18",   175 552,   85 778,   89 774,    114
+03352,Landkreis,Cuxhaven,DE932,"   2 057,77",   196 607,   96 090,   100 517,    96
+03353,Landkreis,Harburg,DE933,"   1 244,97",   242 871,   118 324,   124 547,    195
+03354,Landkreis,Lüchow-Dannenberg,DE934,"   1 220,65",   48 670,   23 949,   24 721,    40
+03355,Landkreis,Lüneburg,DE935,"   1 323,50",   176 727,   85 766,   90 961,    134
+03356,Landkreis,Osterholz,DE936,"    650,79",   110 882,   54 355,   56 527,    170
+03357,Landkreis,Rotenburg (Wümme),DE937,"   2 070,30",   161 308,   80 823,   80 485,    78
+03358,Landkreis,Heidekreis,DE938,"   1 873,67",   136 251,   67 473,   68 778,    73
+03359,Landkreis,Stade,DE939,"   1 266,02",   196 516,   97 880,   98 636,    155
+03360,Landkreis,Uelzen,DE93A,"   1 454,14",   92 356,   44 952,   47 404,    64
+03361,Landkreis,Verden,DE93B,"    787,95",   132 459,   64 637,   67 822,    168
+034,Statistische Region Weser-Ems,,,,,,,
+03401,Kreisfreie Stadt,"Delmenhorst, Stadt",DE941,"    62,36",   74 052,   36 407,   37 645,   1 187
+03402,Kreisfreie Stadt,"Emden, Stadt",DE942,"    112,35",   49 790,   24 477,   25 313,    443
+03403,Kreisfreie Stadt,"Oldenburg (Oldenburg), Stadt",DE943,"    102,99",   159 610,   75 754,   83 856,   1 550
+03404,Kreisfreie Stadt,"Osnabrück, Stadt",DE944,"    119,80",   156 315,   74 822,   81 493,   1 305
+03405,Kreisfreie Stadt,"Wilhelmshaven, Stadt",DE945,"    106,91",   75 728,   36 936,   38 792,    708
+03451,Landkreis,Ammerland,DE946,"    728,36",   118 865,   58 158,   60 707,    163
+03452,Landkreis,Aurich,DE947,"   1 287,31",   187 058,   91 632,   95 426,    145
+03453,Landkreis,Cloppenburg,DE948,"   1 418,40",   160 176,   80 598,   79 578,    113
+03454,Landkreis,Emsland,DE949,"   2 882,04",   313 689,   158 523,   155 166,    109
+03455,Landkreis,Friesland,DE94A,"    607,90",   97 093,   47 212,   49 881,    160
+03456,Landkreis,Grafschaft Bentheim,DE94B,"    980,86",   133 678,   66 473,   67 205,    136
+03457,Landkreis,Leer,DE94C,"   1 086,02",   164 792,   81 696,   83 096,    152
+03458,Landkreis,Oldenburg,DE94D,"   1 063,12",   125 778,   62 342,   63 436,    118
+03459,Landkreis,Osnabrück,DE94E,"   2 121,59",   350 302,   172 950,   177 352,    165
+03460,Landkreis,Vechta,DE94F,"    812,59",   134 188,   67 362,   66 826,    165
+03461,Landkreis,Wesermarsch,DE94G,"    821,90",   88 831,   44 181,   44 650,    108
+03462,Landkreis,Wittmund,DE94H,"    656,66",   56 400,   27 490,   28 910,    86
+,,Kreisfreie Städte,,"   1 124,56",   983 376,   477 994,   505 382,    874
+,,Landkreise,,"   46 489,53",  6 807 183,  3 343 820,  3 463 363,    146
+,,Insgesamt,,"   47 614,09",  7 790 559,  3 821 814,  3 968 745,    164
+04,Bremen,,,,,,,
+04011,Kreisfreie Stadt,"Bremen, Stadt",DE501,"    325,42",   548 547,   267 621,   280 926,   1 686
+04012,Kreisfreie Stadt,"Bremerhaven, Stadt",DE502,"    93,82",   108 844,   53 611,   55 233,   1 160
+,,Insgesamt,,"    419,24",   657 391,   321 232,   336 159,   1 568
+05,Nordrhein-Westfalen,,,,,,,
+051,Reg.-Bez. Düsseldorf,,,,,,,
+05111,Kreisfreie Stadt,"Düsseldorf, Stadt",DEA11,"    217,41",   598 686,   288 114,   310 572,   2 754
+05112,Kreisfreie Stadt,"Duisburg, Stadt",DEA12,"    232,80",   486 855,   237 743,   249 112,   2 091
+05113,Kreisfreie Stadt,"Essen, Stadt",DEA13,"    210,34",   569 884,   273 982,   295 902,   2 709
+05114,Kreisfreie Stadt,"Krefeld, Stadt",DEA14,"    137,78",   222 058,   107 084,   114 974,   1 612
+05116,Kreisfreie Stadt,"Mönchengladbach, Stadt",DEA15,"    170,45",   255 430,   124 452,   130 978,   1 499
+05117,Kreisfreie Stadt,"Mülheim an der Ruhr, Stadt",DEA16,"    91,28",   166 640,   79 425,   87 215,   1 826
+05119,Kreisfreie Stadt,"Oberhausen, Stadt",DEA17,"    77,10",   209 097,   101 827,   107 270,   2 712
+05120,Kreisfreie Stadt,"Remscheid, Stadt",DEA18,"    74,52",   108 955,   53 172,   55 783,   1 462
+05122,Kreisfreie Stadt,"Solingen, Klingenstadt",DEA19,"    89,54",   155 768,   74 822,   80 946,   1 740
+05124,Kreisfreie Stadt,"Wuppertal, Stadt",DEA1A,"    168,39",   343 488,   166 113,   177 375,   2 040
+05154,Kreis,Kleve,DEA1B,"   1 232,99",   302 698,   149 466,   153 232,    245
+05158,Kreis,Mettmann,DEA1C,"    407,22",   476 633,   229 018,   247 615,   1 170
+05162,Kreis,Rhein-Kreis Neuss,DEA1D,"    576,52",   440 602,   213 436,   227 166,    764
+05166,Kreis,Viersen,DEA1E,"    563,28",   294 921,   143 168,   151 753,    524
+05170,Kreis,Wesel,DEA1F,"   1 042,80",   457 033,   221 795,   235 238,    438
+,,Kreisfreie Städte,,"   1 469,61",  3 116 861,  1 506 734,  1 610 127,   2 121
+,,Kreise,,"   3 822,81",  1 971 887,   956 883,  1 015 004,    516
+,,Zusammen,,"   5 292,42",  5 088 748,  2 463 617,  2 625 131,    962
+053,Reg.-Bez. Köln,,,,,,,
+05314,Kreisfreie Stadt,"Bonn, Stadt",DEA22,"    141,06",   311 287,   147 304,   163 983,   2 207
+05315,Kreisfreie Stadt,"Köln, Stadt",DEA23,"    405,01",  1 034 175,   501 577,   532 598,   2 553
+05316,Kreisfreie Stadt,"Leverkusen, Stadt",DEA24,"    78,87",   160 819,   77 865,   82 954,   2 039
+05334,Kreis,Städteregion Aachen,DEA2D,"    706,95",   545 067,   272 493,   272 574,    771
+05358,Kreis,Düren,DEA26,"    941,37",   258 385,   127 307,   131 078,    274
+05362,Kreis,Rhein-Erft-Kreis,DEA27,"    704,62",   456 602,   222 057,   234 545,    648
+05366,Kreis,Euskirchen,DEA28,"   1 248,73",   187 437,   92 289,   95 148,    150
+05370,Kreis,Heinsberg,DEA29,"    627,99",   248 233,   122 114,   126 119,    395
+05374,Kreis,Oberbergischer Kreis,DEA2A,"    918,85",   270 290,   132 055,   138 235,    294
+05378,Kreis,Rheinisch-Bergischer Kreis,DEA2B,"    437,32",   278 440,   134 690,   143 750,    637
+05382,Kreis,Rhein-Sieg-Kreis,DEA2C,"   1 153,20",   582 280,   283 675,   298 605,    505
+,,Kreisfreie Städte,,"    624,94",  1 506 281,   726 746,   779 535,   2 410
+,,Kreise,,"   6 739,03",  2 826 734,  1 386 680,  1 440 054,    419
+,,Zusammen,,"   7 363,97",  4 333 015,  2 113 426,  2 219 589,    588
+055,Reg.-Bez. Münster,,,,,,,
+05512,Kreisfreie Stadt,"Bottrop, Stadt",DEA31,"    100,61",   116 055,   56 061,   59 994,   1 154
+05513,Kreisfreie Stadt,"Gelsenkirchen, Stadt",DEA32,"    104,94",   257 850,   126 979,   130 871,   2 457
+05515,Kreisfreie Stadt,"Münster, Stadt",DEA33,"    303,28",   299 708,   143 029,   156 679,    988
+05554,Kreis,Borken,DEA34,"   1 420,98",   364 271,   181 075,   183 196,    256
+05558,Kreis,Coesfeld,DEA35,"   1 112,04",   215 282,   105 691,   109 591,    194
+05562,Kreis,Recklinghausen,DEA36,"    760,45",   613 878,   298 151,   315 727,    807
+05566,Kreis,Steinfurt,DEA37,"   1 795,76",   434 481,   214 563,   219 918,    242
+05570,Kreis,Warendorf,DEA38,"   1 319,41",   272 623,   133 849,   138 774,    207
+,,Kreisfreie Städte,,"    508,83",   673 613,   326 069,   347 544,   1 324
+,,Kreise,,"   6 408,64",  1 900 535,   933 329,   967 206,    297
+,,Zusammen,,"   6 917,47",  2 574 148,  1 259 398,  1 314 750,    372
+057,Reg.-Bez. Detmold,,,,,,,
+05711,Kreisfreie Stadt,"Bielefeld, Stadt",DEA41,"    258,82",   328 864,   158 461,   170 403,   1 271
+05754,Kreis,Gütersloh,DEA42,"    969,21",   352 334,   174 654,   177 680,    364
+05758,Kreis,Herford,DEA43,"    450,41",   248 988,   121 285,   127 703,    553
+05762,Kreis,Höxter,DEA44,"   1 201,42",   142 788,   70 709,   72 079,    119
+05766,Kreis,Lippe,DEA45,"   1 246,21",   345 374,   167 812,   177 562,    277
+05770,Kreis,Minden-Lübbecke,DEA46,"   1 152,41",   309 356,   151 399,   157 957,    268
+05774,Kreis,Paderborn,DEA47,"   1 246,80",   296 688,   147 341,   149 347,    238
+,,Kreisfreie Städte,,"    258,82",   328 864,   158 461,   170 403,   1 271
+,,Kreise,,"   6 266,46",  1 695 528,   833 200,   862 328,    271
+,,Zusammen,,"   6 525,28",  2 024 392,   991 661,  1 032 731,    310
+059,Reg.-Bez. Arnsberg,,,,,,,
+05911,Kreisfreie Stadt,"Bochum, Stadt",DEA51,"    145,66",   361 734,   174 396,   187 338,   2 483
+05913,Kreisfreie Stadt,"Dortmund, Stadt",DEA52,"    280,71",   575 944,   281 116,   294 828,   2 052
+05914,Kreisfreie Stadt,"Hagen, Stadt der FernUniversität",DEA53,"    160,35",   185 996,   89 907,   96 089,   1 160
+05915,Kreisfreie Stadt,"Hamm, Stadt",DEA54,"    226,43",   176 048,   85 813,   90 235,    777
+05916,Kreisfreie Stadt,"Herne, Stadt",DEA55,"    51,42",   154 417,   74 675,   79 742,   3 003
+05954,Kreis,Ennepe-Ruhr-Kreis,DEA56,"    408,44",   322 731,   155 738,   166 993,    790
+05958,Kreis,Hochsauerlandkreis,DEA57,"   1 960,17",   261 999,   129 615,   132 384,    134
+05962,Kreis,Märkischer Kreis,DEA58,"   1 061,06",   416 240,   203 569,   212 671,    392
+05966,Kreis,Olpe,DEA59,"    712,14",   134 947,   67 266,   67 681,    189
+05970,Kreis,Siegen-Wittgenstein,DEA5A,"   1 132,89",   274 904,   135 077,   139 827,    243
+05974,Kreis,Soest,DEA5B,"   1 328,64",   294 971,   144 777,   150 194,    222
+05978,Kreis,Unna,DEA5C,"    543,21",   391 622,   189 556,   202 066,    721
+,,Kreisfreie Städte,,"    864,57",  1 454 139,   705 907,   748 232,   1 682
+,,Kreise,,"   7 146,55",  2 097 414,  1 025 598,  1 071 816,    293
+,,Zusammen,,"   8 011,12",  3 551 553,  1 731 505,  1 820 048,    443
+,,Insgesamt,,"   34 110,26",  17 571 856,  8 559 607,  9 012 249,    515
+,,davon Kreisfreie Städte,,"   3 726,77",  7 079 758,  3 423 917,  3 655 841,   1 900
+,,Kreise,,"   30 383,49",  10 492 098,  5 135 690,  5 356 408,    345
+06,Hessen,,,,,,,
+064,Reg.-Bez. Darmstadt,,,,,,,
+06411,Kreisfreie Stadt,"Darmstadt, Wissenschaftsstadt",DE711,"    122,09",   149 743,   75 275,   74 468,   1 226
+06412,Kreisfreie Stadt,"Frankfurt am Main, Stadt",DE712,"    248,31",   701 350,   344 952,   356 398,   2 824
+06413,Kreisfreie Stadt,"Offenbach am Main, Stadt",DE713,"    44,89",   119 203,   58 963,   60 240,   2 655
+06414,Kreisfreie Stadt,"Wiesbaden, Landeshauptstadt",DE714,"    203,92",   273 871,   130 760,   143 111,   1 343
+06431,Landkreis,Bergstraße,DE715,"    719,52",   262 322,   128 647,   133 675,    365
+06432,Landkreis,Darmstadt-Dieburg,DE716,"    658,65",   285 407,   140 871,   144 536,    433
+06433,Landkreis,Groß-Gerau,DE717,"    453,05",   257 301,   127 204,   130 097,    568
+06434,Landkreis,Hochtaunuskreis,DE718,"    482,02",   229 167,   110 265,   118 902,    475
+06435,Landkreis,Main-Kinzig-Kreis,DE719,"   1 397,55",   404 995,   198 091,   206 904,    290
+06436,Landkreis,Main-Taunus-Kreis,DE71A,"    222,39",   228 021,   110 818,   117 203,   1 025
+06437,Landkreis,Odenwaldkreis,DE71B,"    623,98",   96 201,   47 380,   48 821,    154
+06438,Landkreis,Offenbach,DE71C,"    356,30",   338 300,   165 651,   172 649,    949
+06439,Landkreis,Rheingau-Taunus-Kreis,DE71D,"    811,48",   181 190,   88 594,   92 596,    223
+06440,Landkreis,Wetteraukreis,DE71E,"   1 100,73",   295 408,   145 084,   150 324,    268
+,,Kreisfreie Städte,,"    619,21",  1 244 167,   609 950,   634 217,   2 009
+,,Landkreise,,"   6 825,67",  2 578 312,  1 262 605,  1 315 707,    378
+,,Zusammen,,"   7 444,88",  3 822 479,  1 872 555,  1 949 924,    513
+065,Reg.-Bez. Gießen,,,,,,,
+06531,Landkreis,Gießen,DE721,"    854,64",   253 820,   124 134,   129 686,    297
+06532,Landkreis,Lahn-Dill-Kreis,DE722,"   1 066,52",   251 327,   123 096,   128 231,    236
+06533,Landkreis,Limburg-Weilburg,DE723,"    738,48",   169 964,   83 781,   86 183,    230
+06534,Landkreis,Marburg-Biedenkopf,DE724,"   1 262,55",   241 656,   117 854,   123 802,    191
+06535,Landkreis,Vogelsbergkreis,DE725,"   1 458,99",   106 383,   52 712,   53 671,    73
+,,Zusammen,,"   5 381,18",  1 023 150,   501 577,   521 573,    190
+066,Reg.-Bez. Kassel,,,,,,,
+06611,Kreisfreie Stadt,"Kassel, documenta-Stadt",DE731,"    106,78",   194 087,   93 967,   100 120,   1 818
+06631,Landkreis,Fulda,DE732,"   1 380,39",   216 314,   106 118,   110 196,    157
+06632,Landkreis,Hersfeld-Rotenburg,DE733,"   1 097,13",   119 651,   59 158,   60 493,    109
+06633,Landkreis,Kassel,DE734,"   1 292,92",   233 352,   113 798,   119 554,    180
+06634,Landkreis,Schwalm-Eder-Kreis,DE735,"   1 538,49",   179 429,   89 142,   90 287,    117
+06635,Landkreis,Waldeck-Frankenberg,DE736,"   1 848,45",   156 607,   77 326,   79 281,    85
+06636,Landkreis,Werra-Meißner-Kreis,DE737,"   1 024,70",   100 356,   48 909,   51 447,    98
+,,Kreisfreie Städte,,"    106,78",   194 087,   93 967,   100 120,   1 818
+,,Landkreise,,"   8 182,08",  1 005 709,   494 451,   511 258,    123
+,,Zusammen,,"   8 288,86",  1 199 796,   588 418,   611 378,    145
+,,Insgesamt,,"   21 114,92",  6 045 425,  2 962 550,  3 082 875,    286
+,,davon Kreisfreie Städte,,"    725,99",  1 438 254,   703 917,   734 337,   1 981
+,,Landkreise,,"   20 388,93",  4 607 171,  2 258 633,  2 348 538,    226
+07,Rheinland-Pfalz,,,,,,,
+071,früher: Reg.-Bez. Koblenz,,,,,,,
+07111,Kreisfreie Stadt,"Koblenz, kreisfreie Stadt",DEB11,"    105,13",   110 643,   53 188,   57 455,   1 052
+07131,Landkreis,Ahrweiler,DEB12,"    786,99",   126 102,   61 536,   64 566,    160
+07132,Landkreis,Altenkirchen (Westerwald),DEB13,"    642,00",   128 373,   63 240,   65 133,    200
+07133,Landkreis,Bad Kreuznach,DEB14,"    863,70",   155 297,   75 420,   79 877,    180
+07134,Landkreis,Birkenfeld,DEB15,"    776,55",   80 673,   39 697,   40 976,    104
+07135,Landkreis,Cochem-Zell,DEB16,"    719,97",   63 202,   31 485,   31 717,    88
+07137,Landkreis,Mayen-Koblenz,DEB17,"    817,26",   209 785,   102 901,   106 884,    257
+07138,Landkreis,Neuwied,DEB18,"    626,88",   179 454,   87 750,   91 704,    286
+07140,Landkreis,Rhein-Hunsrück-Kreis,DEB19,"    963,39",   100 770,   49 780,   50 990,    105
+07141,Landkreis,Rhein-Lahn-Kreis,DEB1A,"    782,34",   121 375,   59 764,   61 611,    155
+07143,Landkreis,Westerwaldkreis,DEB1B,"    988,97",   198 704,   98 331,   100 373,    201
+072,früher: Reg.-Bez. Trier,,,,,,,
+07211,Kreisfreie Stadt,"Trier, kreisfreie Stadt",DEB21,"    117,13",   107 233,   51 782,   55 451,    916
+07231,Landkreis,Bernkastel-Wittlich,DEB22,"   1 167,59",   110 643,   54 811,   55 832,    95
+07232,Landkreis,Eifelkreis Bitburg-Prüm,DEB23,"   1 626,26",   96 158,   47 973,   48 185,    59
+07233,Landkreis,Vulkaneifel,DEB24,"    911,05",   60 765,   30 112,   30 653,    67
+07235,Landkreis,Trier-Saarburg,DEB25,"   1 101,49",   144 337,   70 958,   73 379,    131
+073,früher: Reg.-Bez. Rheinhessen-Pfalz,,,,,,,
+07311,Kreisfreie Stadt,"Frankenthal (Pfalz), kreisfreie Stadt",DEB31,"    43,76",   47 332,   22 864,   24 468,   1 082
+07312,Kreisfreie Stadt,"Kaiserslautern, kreisfreie Stadt",DEB32,"    139,73",   97 162,   48 493,   48 669,    695
+07313,Kreisfreie Stadt,"Landau in der Pfalz, kreisfreie Stadt",DEB33,"    82,96",   43 825,   20 609,   23 216,    528
+07314,Kreisfreie Stadt,"Ludwigshafen am Rhein, kreisfreie Stadt",DEB34,"    77,55",   161 518,   79 764,   81 754,   2 083
+07315,Kreisfreie Stadt,"Mainz, kreisfreie Stadt",DEB35,"    97,74",   204 268,   98 529,   105 739,   2 090
+07316,Kreisfreie Stadt,"Neustadt an der Weinstraße, kreisfreie Stadt",DEB36,"    117,10",   52 400,   25 308,   27 092,    447
+07317,Kreisfreie Stadt,"Pirmasens, kreisfreie Stadt",DEB37,"    61,37",   40 101,   19 242,   20 859,    653
+07318,Kreisfreie Stadt,"Speyer, kreisfreie Stadt",DEB38,"    42,60",   49 740,   23 906,   25 834,   1 168
+07319,Kreisfreie Stadt,"Worms, kreisfreie Stadt",DEB39,"    108,73",   80 296,   38 946,   41 350,    738
+07320,Kreisfreie Stadt,"Zweibrücken, kreisfreie Stadt",DEB3A,"    70,64",   34 084,   16 676,   17 408,    483
+07331,Landkreis,Alzey-Worms,DEB3B,"    588,14",   125 213,   62 185,   63 028,    213
+07332,Landkreis,Bad Dürkheim,DEB3C,"    594,79",   131 041,   64 062,   66 979,    220
+07333,Landkreis,Donnersbergkreis,DEB3D,"    645,49",   75 192,   37 059,   38 133,    116
+07334,Landkreis,Germersheim,DEB3E,"    463,35",   125 434,   62 243,   63 191,    271
+07335,Landkreis,Kaiserslautern,DEB3F,"    639,88",   104 117,   50 998,   53 119,    163
+07336,Landkreis,Kusel,DEB3G,"    573,35",   71 098,   35 163,   35 935,    124
+07337,Landkreis,Südliche Weinstraße,DEB3H,"    639,83",   109 026,   53 691,   55 335,    170
+07338,Landkreis,Rhein-Pfalz-Kreis,DEB3I,"    304,94",   149 068,   72 974,   76 094,    489
+07339,Landkreis,Mainz-Bingen,DEB3J,"    605,73",   203 338,   99 855,   103 483,    336
+07340,Landkreis,Südwestpfalz,DEB3K,"    953,65",   96 599,   47 641,   48 958,    101
+,,Kreisfreie Städte,,"   1 064,44",  1 028 602,   499 307,   529 295,    966
+,,Landkreise,,"   18 783,59",  2 965 764,  1 459 629,  1 506 135,    158
+,,Insgesamt,,"   19 848,03",  3 994 366,  1 958 936,  2 035 430,    201
+08,Baden-Württemberg,,,,,,,
+081,Reg.-Bez. Stuttgart,,,,,,,
+0811,Region Stuttgart,,,,,,,
+08111,Stadtkreis,Stuttgart,DE111,"    207,35",   604 297,   298 413,   305 884,   2 914
+08115,Landkreis,Böblingen,DE112,"    617,82",   370 392,   182 704,   187 688,    600
+08116,Landkreis,Esslingen,DE113,"    641,48",   512 279,   252 108,   260 171,    799
+08117,Landkreis,Göppingen,DE114,"    642,36",   248 813,   122 731,   126 082,    387
+08118,Landkreis,Ludwigsburg,DE115,"    686,82",   521 633,   257 080,   264 553,    759
+08119,Landkreis,Rems-Murr-Kreis,DE116,"    858,14",   411 025,   201 855,   209 170,    479
+,,Stadtkreise,,"    207,35",   604 297,   298 413,   305 884,   2 914
+,,Landkreise,,"   3 446,62",  2 064 142,  1 016 478,  1 047 664,    599
+,,Region Zusammen,,"   3 653,97",  2 668 439,  1 314 891,  1 353 548,    730
+0812,Region Heilbronn-Franken,,,,,,,
+08121,Stadtkreis,Heilbronn,DE117,"    99,88",   118 122,   58 440,   59 682,   1 183
+08125,Landkreis,Heilbronn,DE118,"   1 099,93",   326 035,   161 934,   164 101,    296
+08126,Landkreis,Hohenlohekreis,DE119,"    776,76",   107 866,   53 969,   53 897,    139
+08127,Landkreis,Schwäbisch Hall,DE11A,"   1 484,00",   187 682,   93 657,   94 025,    126
+08128,Landkreis,Main-Tauber-Kreis,DE11B,"   1 304,41",   129 857,   64 015,   65 842,    100
+,,Stadtkreise,,"    99,88",   118 122,   58 440,   59 682,   1 183
+,,Landkreise,,"   4 665,10",   751 440,   373 575,   377 865,    161
+,,Region Zusammen,,"   4 764,98",   869 562,   432 015,   437 547,    182
+0813,Region Ostwürttemberg,,,,,,,
+08135,Landkreis,Heidenheim,DE11C,"    627,12",   127 947,   63 283,   64 664,    204
+08136,Landkreis,Ostalbkreis,DE11D,"   1 511,57",   306 933,   151 882,   155 051,    203
+,,Region Zusammen,,"   2 138,69",   434 880,   215 165,   219 715,    203
+,,Regierungsbezirk Zusammen,,"   10 557,64",  3 972 881,  1 962 071,  2 010 810,    376
+,,davon Stadtkreise,,"    307,23",   722 419,   356 853,   365 566,   2 351
+,,Landkreise,,"   10 250,41",  3 250 462,  1 605 218,  1 645 244,    317
+082,Reg.-Bez. Karlsruhe,,,,,,,
+0821,Region Mittlerer Oberrhein,,,,,,,
+08211,Stadtkreis,Baden-Baden,DE121,"    140,21",   53 012,   24 893,   28 119,    378
+08212,Stadtkreis,Karlsruhe,DE122,"    173,46",   299 103,   150 451,   148 652,   1 724
+08215,Landkreis,Karlsruhe,DE123,"   1 084,94",   429 186,   211 795,   217 391,    396
+08216,Landkreis,Rastatt,DE124,"    738,75",   223 311,   109 963,   113 348,    302
+,,Stadtkreise,,"    313,67",   352 115,   175 344,   176 771,   1 123
+,,Landkreise,,"   1 823,69",   652 497,   321 758,   330 739,    358
+,,Region Zusammen,,"   2 137,36",  1 004 612,   497 102,   507 510,    470
+0822,Region Rhein-Neckar-Odenwald,,,,,,,
+08221,Stadtkreis,Heidelberg,DE125,"    108,83",   152 113,   72 422,   79 691,   1 398
+08222,Stadtkreis,Mannheim,DE126,"    144,96",   296 690,   146 345,   150 345,   2 047
+08225,Landkreis,Neckar-Odenwald-Kreis,DE127,"   1 126,25",   141 584,   70 441,   71 143,    126
+08226,Landkreis,Rhein-Neckar-Kreis,DE128,"   1 061,71",   531 013,   258 970,   272 043,    500
+,,Stadtkreise,,"    253,79",   448 803,   218 767,   230 036,   1 768
+,,Landkreise,,"   2 187,96",   672 597,   329 411,   343 186,    307
+,,Region Zusammen,,"   2 441,75",  1 121 400,   548 178,   573 222,    459
+0823,Region Nordschwarzwald,,,,,,,
+08231,Stadtkreis,Pforzheim,DE129,"    98,00",   117 754,   57 147,   60 607,   1 202
+08235,Landkreis,Calw,DE12A,"    797,51",   151 461,   75 016,   76 445,    190
+08236,Landkreis,Enzkreis,DE12B,"    573,69",   192 811,   95 032,   97 779,    336
+08237,Landkreis,Freudenstadt,DE12C,"    870,67",   114 793,   56 630,   58 163,    132
+,,Stadtkreise,,"    98,00",   117 754,   57 147,   60 607,   1 202
+,,Landkreise,,"   2 241,87",   459 065,   226 678,   232 387,    205
+,,Region Zusammen,,"   2 339,87",   576 819,   283 825,   292 994,    247
+,,Regierungsbezirk Zusammen,,"   6 918,98",  2 702 831,  1 329 105,  1 373 726,    391
+,,davon Stadtkreise,,"    665,46",   918 672,   451 258,   467 414,   1 381
+,,Landkreise,,"   6 253,52",  1 784 159,   877 847,   906 312,    285
+083,Reg.-Bez. Freiburg,,,,,,,
+0831,Region Südlicher Oberrhein,,,,,,,
+08311,Stadtkreis,Freiburg im Breisgau,DE131,"    153,06",   220 286,   103 982,   116 304,   1 439
+08315,Landkreis,Breisgau-Hochschwarzwald,DE132,"   1 378,34",   250 137,   122 249,   127 888,    181
+08316,Landkreis,Emmendingen,DE133,"    679,88",   158 177,   77 608,   80 569,    233
+08317,Landkreis,Ortenaukreis,DE134,"   1 860,78",   412 678,   203 550,   209 128,    222
+,,Stadtkreise,,"    153,06",   220 286,   103 982,   116 304,   1 439
+,,Landkreise,,"   3 919,00",   820 992,   403 407,   417 585,    209
+,,Region Zusammen,,"   4 072,06",  1 041 278,   507 389,   533 889,    256
+0832,Region Schwarzwald-Baar-Heuberg,,,,,,,
+08325,Landkreis,Rottweil,DE135,"    769,43",   135 319,   66 921,   68 398,    176
+08326,Landkreis,Schwarzwald-Baar-Kreis,DE136,"   1 025,26",   205 090,   100 855,   104 235,    200
+08327,Landkreis,Tuttlingen,DE137,"    734,35",   133 198,   66 204,   66 994,    181
+,,Region Zusammen,,"   2 529,04",   473 607,   233 980,   239 627,    187
+0833,Region Hochrhein-Bodensee,,,,,,,
+08335,Landkreis,Konstanz,DE138,"    817,97",   273 407,   132 172,   141 235,    334
+08336,Landkreis,Lörrach,DE139,"    806,77",   221 943,   108 111,   113 832,    275
+08337,Landkreis,Waldshut,DE13A,"   1 131,15",   164 265,   80 674,   83 591,    145
+,,Region Zusammen,,"   2 755,89",   659 615,   320 957,   338 658,    239
+,,Regierungsbezirk Zusammen,,"   9 356,99",  2 174 500,  1 062 326,  1 112 174,    232
+,,davon Stadtkreise,,"    153,06",   220 286,   103 982,   116 304,   1 439
+,,Landkreise,,"   9 203,93",  1 954 214,   958 344,   995 870,    212
+084,Reg.-Bez. Tübingen,,,,,,,
+0841,Region Neckar-Alb,,,,,,,
+08415,Landkreis,Reutlingen,DE141,"   1 092,72",   276 019,   135 326,   140 693,    253
+08416,Landkreis,Tübingen,DE142,"    519,19",   216 535,   105 212,   111 323,    417
+08417,Landkreis,Zollernalbkreis,DE143,"    917,71",   184 615,   90 722,   93 893,    201
+,,Region Zusammen,,"   2 529,62",   677 169,   331 260,   345 909,    268
+0842,Region Donau-Iller,,,,,,,
+08421,Stadtkreis,Ulm,DE144,"    118,69",   119 218,   58 341,   60 877,   1 004
+08425,Landkreis,Alb-Donau-Kreis,DE145,"   1 358,67",   187 892,   93 867,   94 025,    138
+08426,Landkreis,Biberach,DE146,"   1 409,75",   188 696,   94 063,   94 633,    134
+,,Stadtkreise,,"    118,69",   119 218,   58 341,   60 877,   1 004
+,,Landkreise,,"   2 768,42",   376 588,   187 930,   188 658,    136
+,,Region Zusammen,,"   2 887,11",   495 806,   246 271,   249 535,    172
+0843,Region Bodensee-Oberschwaben,,,,,,,
+08435,Landkreis,Bodenseekreis,DE147,"    664,80",   207 450,   101 660,   105 790,    312
+08436,Landkreis,Ravensburg,DE148,"   1 631,82",   273 540,   134 892,   138 648,    168
+08437,Landkreis,Sigmaringen,DE149,"   1 204,34",   127 101,   62 980,   64 121,    106
+,,Region Zusammen,,"   3 500,96",   608 091,   299 532,   308 559,    174
+,,Regierungsbezirk Zusammen,,"   8 917,69",  1 781 066,   877 063,   904 003,    200
+,,davon Stadtkreise,,"    118,69",   119 218,   58 341,   60 877,   1 004
+,,Landkreise,,"   8 799,00",  1 661 848,   818 722,   843 126,    189
+,,Insgesamt,,"   35 751,30",  10 631 278,  5 230 565,  5 400 713,    297
+,,davon Stadtkreise,,"   1 244,44",  1 980 595,   970 434,  1 010 161,   1 592
+,,Landkreise,,"   34 506,86",  8 650 683,  4 260 131,  4 390 552,    251
+09,Bayern,,,,,,,
+091,Reg.-Bez. Oberbayern,,,,,,,
+09161,Kreisfreie Stadt,Ingolstadt,DE211,"    133,37",   129 136,   64 731,   64 405,    968
+09162,Kreisfreie Stadt,"München, Landeshauptstadt",DE212,"    310,74",  1 407 836,   683 126,   724 710,   4 531
+09163,Kreisfreie Stadt,Rosenheim,DE213,"    37,22",   60 464,   29 546,   30 918,   1 625
+09171,Landkreis,Altötting,DE214,"    569,35",   106 965,   52 378,   54 587,    188
+09172,Landkreis,Berchtesgadener Land,DE215,"    839,92",   102 346,   49 891,   52 455,    122
+09173,Landkreis,Bad Tölz-Wolfratshausen,DE216,"   1 110,69",   122 118,   59 850,   62 268,    110
+09174,Landkreis,Dachau,DE217,"    579,18",   144 407,   71 636,   72 771,    249
+09175,Landkreis,Ebersberg,DE218,"    549,37",   133 007,   65 811,   67 196,    242
+09176,Landkreis,Eichstätt,DE219,"   1 214,06",   125 858,   63 300,   62 558,    104
+09177,Landkreis,Erding,DE21A,"    870,72",   130 238,   65 192,   65 046,    150
+09178,Landkreis,Freising,DE21B,"    799,82",   169 010,   85 466,   83 544,    211
+09179,Landkreis,Fürstenfeldbruck,DE21C,"    434,79",   208 272,   101 205,   107 067,    479
+09180,Landkreis,Garmisch-Partenkirchen,DE21D,"   1 012,23",   85 443,   41 154,   44 289,    84
+09181,Landkreis,Landsberg am Lech,DE21E,"    804,38",   114 926,   56 988,   57 938,    143
+09182,Landkreis,Miesbach,DE21F,"    866,23",   96 049,   46 565,   49 484,    111
+09183,Landkreis,Mühldorf a.Inn,DE21G,"    805,31",   109 227,   54 591,   54 636,    136
+09184,Landkreis,München,DE21H,"    664,25",   329 981,   162 383,   167 598,    497
+09185,Landkreis,Neuburg-Schrobenhausen,DE21I,"    739,80",   92 700,   46 418,   46 282,    125
+09186,Landkreis,Pfaffenhofen a.d.Ilm,DE21J,"    761,14",   119 987,   60 632,   59 355,    158
+09187,Landkreis,Rosenheim,DE21K,"   1 439,54",   249 810,   123 049,   126 761,    174
+09188,Landkreis,Starnberg,DE21L,"    487,71",   130 811,   62 863,   67 948,    268
+09189,Landkreis,Traunstein,DE21M,"   1 534,00",   170 364,   83 288,   87 076,    111
+09190,Landkreis,Weilheim-Schongau,DE21N,"    966,38",   130 387,   64 322,   66 065,    135
+,,Kreisfreie Städte,,"    481,33",  1 597 436,   777 403,   820 033,   3 319
+,,Landkreise,,"   17 048,87",  2 871 906,  1 416 982,  1 454 924,    168
+,,Zusammen,,"   17 530,20",  4 469 342,  2 194 385,  2 274 957,    255
+092,Reg.-Bez. Niederbayern,,,,,,,
+09261,Kreisfreie Stadt,Landshut,DE221,"    65,81",   66 179,   31 659,   34 520,   1 006
+09262,Kreisfreie Stadt,Passau,DE222,"    69,57",   49 454,   23 239,   26 215,    711
+09263,Kreisfreie Stadt,Straubing,DE223,"    67,58",   45 502,   22 636,   22 866,    673
+09271,Landkreis,Deggendorf,DE224,"    861,30",   115 374,   57 071,   58 303,    134
+09272,Landkreis,Freyung-Grafenau,DE225,"    984,14",   77 626,   38 426,   39 200,    79
+09273,Landkreis,Kelheim,DE226,"   1 065,98",   115 232,   57 764,   57 468,    108
+09274,Landkreis,Landshut,DE227,"   1 347,91",   150 316,   75 767,   74 549,    112
+09275,Landkreis,Passau,DE228,"   1 530,29",   185 671,   91 391,   94 280,    121
+09276,Landkreis,Regen,DE229,"    974,91",   76 257,   37 813,   38 444,    78
+09277,Landkreis,Rottal-Inn,DE22A,"   1 281,42",   117 654,   58 380,   59 274,    92
+09278,Landkreis,Straubing-Bogen,DE22B,"   1 201,94",   97 323,   48 597,   48 726,    81
+09279,Landkreis,Dingolfing-Landau,DE22C,"    877,79",   92 565,   47 210,   45 355,    105
+,,Kreisfreie Städte,,"    202,96",   161 135,   77 534,   83 601,    794
+,,Landkreise,,"   10 125,68",  1 028 018,   512 419,   515 599,    102
+,,Zusammen,,"   10 328,64",  1 189 153,   589 953,   599 200,    115
+093,Reg.-Bez. Oberpfalz,,,,,,,
+09361,Kreisfreie Stadt,Amberg,DE231,"    50,13",   41 592,   20 353,   21 239,    830
+09362,Kreisfreie Stadt,Regensburg,DE232,"    80,70",   140 276,   67 035,   73 241,   1 738
+09363,Kreisfreie Stadt,Weiden i.d.OPf.,DE233,"    70,54",   41 726,   19 765,   21 961,    592
+09371,Landkreis,Amberg-Sulzbach,DE234,"   1 255,76",   103 074,   51 248,   51 826,    82
+09372,Landkreis,Cham,DE235,"   1 520,16",   125 553,   62 483,   63 070,    83
+09373,Landkreis,Neumarkt i.d.OPf.,DE236,"   1 344,12",   127 826,   64 011,   63 815,    95
+09374,Landkreis,Neustadt a.d.Waldnaab,DE237,"   1 427,67",   95 447,   47 339,   48 108,    67
+09375,Landkreis,Regensburg,DE238,"   1 391,90",   185 980,   92 504,   93 476,    134
+09376,Landkreis,Schwandorf,DE239,"   1 464,98",   143 060,   71 491,   71 569,    98
+09377,Landkreis,Tirschenreuth,DE23A,"   1 084,23",   73 457,   36 343,   37 114,    68
+,,Kreisfreie Städte,,"    201,37",   223 594,   107 153,   116 441,   1 110
+,,Landkreise,,"   9 488,82",   854 397,   425 419,   428 978,    90
+,,Zusammen,,"   9 690,19",  1 077 991,   532 572,   545 419,    111
+094,Reg.-Bez. Oberfranken,,,,,,,
+09461,Kreisfreie Stadt,Bamberg,DE241,"    54,62",   71 167,   33 421,   37 746,   1 303
+09462,Kreisfreie Stadt,Bayreuth,DE242,"    66,90",   71 572,   34 364,   37 208,   1 070
+09463,Kreisfreie Stadt,Coburg,DE243,"    48,29",   40 994,   19 715,   21 279,    849
+09464,Kreisfreie Stadt,Hof,DE244,"    58,03",   44 522,   21 080,   23 442,    767
+09471,Landkreis,Bamberg,DE245,"   1 167,84",   144 425,   71 904,   72 521,    124
+09472,Landkreis,Bayreuth,DE246,"   1 273,78",   104 637,   51 537,   53 100,    82
+09473,Landkreis,Coburg,DE247,"    590,47",   86 719,   42 685,   44 034,    147
+09474,Landkreis,Forchheim,DE248,"    642,79",   113 424,   55 927,   57 497,    176
+09475,Landkreis,Hof,DE249,"    892,52",   97 096,   47 063,   50 033,    109
+09476,Landkreis,Kronach,DE24A,"    651,53",   68 484,   33 604,   34 880,    105
+09477,Landkreis,Kulmbach,DE24B,"    658,34",   72 898,   35 570,   37 328,    111
+09478,Landkreis,Lichtenfels,DE24C,"    519,95",   66 644,   32 663,   33 981,    128
+09479,Landkreis,Wunsiedel i.Fichtelgebirge,DE24D,"    606,43",   73 783,   35 495,   38 288,    122
+,,Kreisfreie Städte,,"    227,84",   228 255,   108 580,   119 675,   1 002
+,,Landkreise,,"   7 003,65",   828 110,   406 448,   421 662,    118
+,,Zusammen,,"   7 231,49",  1 056 365,   515 028,   541 337,    146
+095,Reg.-Bez. Mittelfranken,,,,,,,
+09561,Kreisfreie Stadt,Ansbach,DE251,"    99,91",   39 839,   18 895,   20 944,    399
+09562,Kreisfreie Stadt,Erlangen,DE252,"    76,95",   105 624,   51 877,   53 747,   1 373
+09563,Kreisfreie Stadt,Fürth,DE253,"    63,35",   119 808,   58 052,   61 756,   1 891
+09564,Kreisfreie Stadt,Nürnberg,DE254,"    186,37",   498 876,   240 640,   258 236,   2 677
+09565,Kreisfreie Stadt,Schwabach,DE255,"    40,82",   39 546,   19 126,   20 420,    969
+09571,Landkreis,Ansbach,DE256,"   1 971,84",   178 914,   89 141,   89 773,    91
+09572,Landkreis,Erlangen-Höchstadt,DE257,"    564,66",   132 012,   65 421,   66 591,    234
+09573,Landkreis,Fürth,DE258,"    307,55",   114 513,   55 631,   58 882,    372
+09574,Landkreis,Nürnberger Land,DE259,"    799,57",   165 000,   80 818,   84 182,    206
+09575,Landkreis,Neustadt a.d.Aisch-Bad Windsheim,DE25A,"   1 267,55",   97 482,   48 296,   49 186,    77
+09576,Landkreis,Roth,DE25B,"    895,39",   123 431,   61 021,   62 410,    138
+09577,Landkreis,Weißenburg-Gunzenhausen,DE25C,"    970,91",   92 331,   45 817,   46 514,    95
+,,Kreisfreie Städte,,"    467,40",   803 693,   388 590,   415 103,   1 719
+,,Landkreise,,"   6 777,47",   903 683,   446 145,   457 538,    133
+,,Zusammen,,"   7 244,87",  1 707 376,   834 735,   872 641,    236
+096,Reg.-Bez. Unterfranken,,,,,,,
+09661,Kreisfreie Stadt,Aschaffenburg,DE261,"    62,47",   67 844,   32 509,   35 335,   1 086
+09662,Kreisfreie Stadt,Schweinfurt,DE262,"    35,70",   51 851,   24 974,   26 877,   1 452
+09663,Kreisfreie Stadt,Würzburg,DE263,"    87,63",   124 698,   58 690,   66 008,   1 423
+09671,Landkreis,Aschaffenburg,DE264,"    699,15",   172 791,   85 792,   86 999,    247
+09672,Landkreis,Bad Kissingen,DE265,"   1 136,96",   102 865,   50 217,   52 648,    90
+09673,Landkreis,Rhön-Grabfeld,DE266,"   1 021,77",   79 965,   39 598,   40 367,    78
+09674,Landkreis,Haßberge,DE267,"    956,38",   84 090,   42 012,   42 078,    88
+09675,Landkreis,Kitzingen,DE268,"    684,19",   88 097,   43 821,   44 276,    129
+09676,Landkreis,Miltenberg,DE269,"    715,86",   127 909,   63 644,   64 265,    179
+09677,Landkreis,Main-Spessart,DE26A,"   1 321,42",   126 295,   62 782,   63 513,    96
+09678,Landkreis,Schweinfurt,DE26B,"    841,46",   113 007,   56 262,   56 745,    134
+09679,Landkreis,Würzburg,DE26C,"    968,40",   158 580,   78 529,   80 051,    164
+,,Kreisfreie Städte,,"    185,80",   244 393,   116 173,   128 220,   1 315
+,,Landkreise,,"   8 345,59",  1 053 599,   522 657,   530 942,    126
+,,Zusammen,,"   8 531,39",  1 297 992,   638 830,   659 162,    152
+097,Reg.-Bez. Schwaben,,,,,,,
+09761,Kreisfreie Stadt,Augsburg,DE271,"    146,84",   276 542,   134 549,   141 993,   1 883
+09762,Kreisfreie Stadt,Kaufbeuren,DE272,"    40,03",   41 759,   20 258,   21 501,   1 043
+09763,Kreisfreie Stadt,Kempten (Allgäu),DE273,"    63,28",   65 044,   31 905,   33 139,   1 028
+09764,Kreisfreie Stadt,Memmingen,DE274,"    70,14",   41 772,   20 371,   21 401,    596
+09771,Landkreis,Aichach-Friedberg,DE275,"    780,33",   128 435,   63 741,   64 694,    165
+09772,Landkreis,Augsburg,DE276,"   1 071,12",   240 911,   119 037,   121 874,    225
+09773,Landkreis,Dillingen a.d.Donau,DE277,"    792,22",   93 129,   46 180,   46 949,    118
+09774,Landkreis,Günzburg,DE278,"    762,44",   120 696,   60 320,   60 376,    158
+09775,Landkreis,Neu-Ulm,DE279,"    515,87",   166 643,   82 229,   84 414,    323
+09776,Landkreis,Lindau (Bodensee),DE27A,"    323,44",   78 939,   38 653,   40 286,    244
+09777,Landkreis,Ostallgäu,DE27B,"   1 394,92",   134 771,   66 693,   68 078,    97
+09778,Landkreis,Unterallgäu,DE27C,"   1 230,06",   137 484,   68 733,   68 751,    112
+09779,Landkreis,Donau-Ries,DE27D,"   1 274,68",   129 422,   65 203,   64 219,    102
+09780,Landkreis,Oberallgäu,DE27E,"   1 528,01",   150 478,   73 788,   76 690,    98
+,,Kreisfreie Städte,,"    320,29",   425 117,   207 083,   218 034,   1 327
+,,Landkreise,,"   9 673,09",  1 380 908,   684 577,   696 331,    143
+,,Zusammen,,"   9 993,38",  1 806 025,   891 660,   914 365,    181
+,,Insgesamt,,"   70 550,16",  12 604 244,  6 197 163,  6 407 081,    179
+,,davon Kreisfreie Städte,,"   2 086,99",  3 683 623,  1 782 516,  1 901 107,   1 765
+,,Landkreise,,"   68 463,17",  8 920 621,  4 414 647,  4 505 974,    130
+10,Saarland,,,,,,,
+10041,Regionalverband,Regionalverband Saarbrücken,DEC01,"    410,63",   325 978,   158 386,   167 592,    794
+10042,Landkreis,Merzig-Wadern,DEC02,"    555,16",   103 135,   50 638,   52 497,    186
+10043,Landkreis,Neunkirchen,DEC03,"    249,25",   133 222,   64 864,   68 358,    534
+10044,Landkreis,Saarlouis,DEC04,"    459,03",   195 976,   95 367,   100 609,    427
+10045,Landkreis,Saarpfalz-Kreis,DEC05,"    418,39",   143 851,   69 614,   74 237,    344
+10046,Landkreis,St. Wendel,DEC06,"    476,23",   88 556,   43 540,   45 016,    186
+,,Insgesamt,,"   2 568,69",   990 718,   482 409,   508 309,    386
+11,Berlin,,,,,,,
+11000,Kreisfreie Stadt,"Berlin, Stadt",DE300,"    891,68",  3 421 829,  1 669 853,  1 751 976,   3 838
+12,Brandenburg,,,,,,,
+12051,Kreisfreie Stadt,"Brandenburg an der Havel, Stadt",DE401,"    229,71",   71 032,   34 852,   36 180,    309
+12052,Kreisfreie Stadt,"Cottbus, Stadt",DE402,"    165,15",   99 595,   48 907,   50 688,    603
+12053,Kreisfreie Stadt,"Frankfurt (Oder), Stadt",DE403,"    147,85",   58 018,   27 733,   30 285,    392
+12054,Kreisfreie Stadt,"Potsdam, Stadt",DE404,"    188,25",   161 468,   77 383,   84 085,    858
+12060,Landkreis,Barnim,DE405,"   1 479,69",   173 754,   85 935,   87 819,    117
+12061,Landkreis,Dahme-Spreewald,DE406,"   2 274,28",   160 793,   79 404,   81 389,    71
+12062,Landkreis,Elbe-Elster,DE407,"   1 899,57",   106 157,   52 428,   53 729,    56
+12063,Landkreis,Havelland,DE408,"   1 727,30",   153 874,   76 018,   77 856,    89
+12064,Landkreis,Märkisch-Oderland,DE409,"   2 158,65",   187 668,   92 972,   94 696,    87
+12065,Landkreis,Oberhavel,DE40A,"   1 808,20",   203 012,   99 944,   103 068,    112
+12066,Landkreis,Oberspreewald-Lausitz,DE40B,"   1 223,08",   113 842,   55 726,   58 116,    93
+12067,Landkreis,Oder-Spree,DE40C,"   2 256,75",   176 850,   87 048,   89 802,    78
+12068,Landkreis,Ostprignitz-Ruppin,DE40D,"   2 526,56",   98 944,   49 145,   49 799,    39
+12069,Landkreis,Potsdam-Mittelmark,DE40E,"   2 592,00",   205 520,   101 665,   103 855,    79
+12070,Landkreis,Prignitz,DE40F,"   2 138,59",   77 993,   38 513,   39 480,    36
+12071,Landkreis,Spree-Neiße,DE40G,"   1 657,43",   118 899,   58 576,   60 323,    72
+12072,Landkreis,Teltow-Fläming,DE40H,"   2 104,20",   160 448,   79 653,   80 795,    76
+12073,Landkreis,Uckermark,DE40I,"   3 076,90",   121 326,   59 519,   61 807,    39
+,,Kreisfreie Städte,,"    730,96",   390 113,   188 875,   201 238,    534
+,,Landkreise,,"   28 923,20",  2 059 080,  1 016 546,  1 042 534,    71
+,,Insgesamt,,"   29 654,16",  2 449 193,  1 205 421,  1 243 772,    83
+13,Mecklenburg-Vorpommern,,,,,,,
+13003,Kreisfreie Stadt,Rostock,,"    181,26",   203 431,   99 559,   103 872,   1 122
+13004,Kreisfreie Stadt,Schwerin,,"    130,52",   91 583,   43 536,   48 047,    702
+13071,Landkreis,Mecklenburgische Seenplatte,,"   5 470,03",   262 412,   128 641,   133 771,    48
+13072,Landkreis,Landkreis Rostock,,"   3 422,23",   210 555,   104 956,   105 599,    62
+13073,Landkreis,Vorpommern-Rügen,,"   3 207,22",   223 109,   109 655,   113 454,    70
+13074,Landkreis,Nordwestmecklenburg,,"   2 118,45",   155 265,   77 288,   77 977,    73
+13075,Landkreis,Vorpommern-Greifswald,,"   3 929,48",   238 185,   116 949,   121 236,    61
+13076,Landkreis,Ludwigslust-Parchim,,"   4 751,86",   211 965,   105 749,   106 216,    45
+,,Kreisfreie Städte,,"    311,78",   295 014,   143 095,   151 919,    946
+,,Landkreise,,"   22 899,27",  1 301 491,   643 238,   658 253,    57
+,,Insgesamt,,"   23 211,05",  1 596 505,   786 333,   810 172,    69
+14,Sachsen,,,,,,,
+145,Direktionsbezirk Chemnitz,,,,,,,
+14511,Kreisfreie Stadt,"Chemnitz, Stadt",DED41,"    220,86",   242 022,   117 495,   124 527,   1 096
+14521,Landkreis,Erzgebirgskreis,DED42,"   1 828,43",   351 309,   171 418,   179 891,    192
+14522,Landkreis,Mittelsachsen,DED43,"   2 113,40",   314 591,   155 331,   159 260,    149
+14523,Landkreis,Vogtlandkreis,DED44,"   1 411,90",   233 970,   113 382,   120 588,    166
+14524,Landkreis,Zwickau,DED45,"    949,27",   327 062,   158 462,   168 600,    345
+146,Direktionsbezirk Dresden,,,,,,,
+14612,Kreisfreie Stadt,"Dresden, Stadt",DED21,"    328,31",   530 754,   261 664,   269 090,   1 617
+14625,Landkreis,Bautzen,DED2C,"   2 390,74",   308 350,   151 839,   156 511,    129
+14626,Landkreis,Görlitz,DED2D,"   2 106,30",   262 168,   127 915,   134 253,    124
+14627,Landkreis,Meißen,DED2E,"   1 452,39",   243 716,   119 570,   124 146,    168
+14628,Landkreis,Sächsische Schweiz-Osterzgebirge,DED2F,"   1 653,70",   245 939,   121 119,   124 820,    149
+147,Direktionsbezirk Leipzig,,,,,,,
+14713,Kreisfreie Stadt,"Leipzig, Stadt",DED51,"    297,39",   531 562,   257 414,   274 148,   1 787
+14729,Landkreis,Leipzig,DED52,"   1 647,12",   257 596,   126 061,   131 535,    156
+14730,Landkreis,Nordsachsen,DED53,"   2 020,35",   197 346,   97 518,   99 828,    98
+,,Kreisfreie Städte,,"    846,56",  1 304 338,   636 573,   667 765,   1 541
+,,Landkreise,,"   17 573,60",  2 742 047,  1 342 615,  1 399 432,    156
+,,Insgesamt,,"   18 420,16",  4 046 385,  1 979 188,  2 067 197,    220
+15,Sachsen-Anhalt,,,,,,,
+15001,Kreisfreie Stadt,"Dessau-Roßlau, Stadt",DEE01,"    244,74",   83 616,   40 428,   43 188,    342
+15002,Kreisfreie Stadt,"Halle (Saale), Stadt",DEE02,"    135,01",   231 565,   110 632,   120 933,   1 715
+15003,Kreisfreie Stadt,"Magdeburg, Landeshauptstadt",DEE03,"    201,00",   231 021,   112 495,   118 526,   1 149
+15081,Landkreis,Altmarkkreis Salzwedel,DEE04,"   2 293,05",   86 312,   43 061,   43 251,    38
+15082,Landkreis,Anhalt-Bitterfeld,DEE05,"   1 453,51",   166 828,   81 533,   85 295,    115
+15083,Landkreis,Börde,DEE07,"   2 366,64",   172 955,   86 004,   86 951,    73
+15084,Landkreis,Burgenlandkreis,DEE08,"   1 413,69",   184 956,   90 995,   93 961,    131
+15085,Landkreis,Harz,DEE09,"   2 104,55",   221 043,   107 757,   113 286,    105
+15086,Landkreis,Jerichower Land,DEE06,"   1 576,77",   91 721,   45 624,   46 097,    58
+15087,Landkreis,Mansfeld-Südharz,DEE0A,"   1 448,82",   143 246,   70 402,   72 844,    99
+15088,Landkreis,Saalekreis,DEE0B,"   1 433,66",   187 690,   92 599,   95 091,    131
+15089,Landkreis,Salzlandkreis,DEE0C,"   1 426,68",   198 715,   96 699,   102 016,    139
+15090,Landkreis,Stendal,DEE0D,"   2 423,15",   115 471,   56 882,   58 589,    48
+15091,Landkreis,Wittenberg,DEE0E,"   1 930,30",   129 438,   63 457,   65 981,    67
+,,Kreisfreie Städte,,"    580,75",   546 202,   263 555,   282 647,    941
+,,Landkreise,,"   19 870,82",  1 698 375,   835 013,   863 362,    85
+,,Insgesamt,,"   20 451,57",  2 244 577,  1 098 568,  1 146 009,    110
+16,Thüringen,,,,,,,
+16051,Kreisfreie Stadt,"Erfurt, Stadt",DEG01,"    269,15",   204 880,   98 751,   106 129,    761
+16052,Kreisfreie Stadt,"Gera, Stadt",DEG02,"    151,92",   94 977,   45 497,   49 480,    625
+16053,Kreisfreie Stadt,"Jena, Stadt",DEG03,"    114,48",   107 679,   53 190,   54 489,    941
+16054,Kreisfreie Stadt,"Suhl, Stadt",DEG04,"    102,71",   35 665,   17 212,   18 453,    347
+16055,Kreisfreie Stadt,"Weimar, Stadt",DEG05,"    84,19",   63 315,   30 402,   32 913,    752
+16056,Kreisfreie Stadt,"Eisenach, Stadt",DEG0N,"    103,84",   41 567,   20 118,   21 449,    400
+16061,Landkreis,Eichsfeld,DEG06,"    940,13",   100 951,   50 650,   50 301,    107
+16062,Landkreis,Nordhausen,DEG07,"    711,02",   85 380,   42 138,   43 242,    120
+16063,Landkreis,Wartburgkreis,DEG0P,"   1 304,87",   126 283,   63 070,   63 213,    97
+16064,Landkreis,Unstrut-Hainich-Kreis,DEG09,"    975,56",   104 245,   51 406,   52 839,    107
+16065,Landkreis,Kyffhäuserkreis,DEG0A,"   1 035,19",   77 656,   38 431,   39 225,    75
+16066,Landkreis,Schmalkalden-Meiningen,DEG0B,"   1 210,13",   125 574,   62 616,   62 958,    104
+16067,Landkreis,Gotha,DEG0C,"    935,62",   135 155,   66 902,   68 253,    144
+16068,Landkreis,Sömmerda,DEG0D,"    804,21",   70 833,   35 281,   35 552,    88
+16069,Landkreis,Hildburghausen,DEG0E,"    937,27",   65 032,   32 383,   32 649,    69
+16070,Landkreis,Ilm-Kreis,DEG0F,"    843,14",   108 958,   54 387,   54 571,    129
+16071,Landkreis,Weimarer Land,DEG0G,"    803,04",   81 704,   40 414,   41 290,    102
+16072,Landkreis,Sonneberg,DEG0H,"    433,48",   57 252,   28 002,   29 250,    132
+16073,Landkreis,Saalfeld-Rudolstadt,DEG0I,"   1 034,63",   110 307,   54 020,   56 287,    107
+16074,Landkreis,Saale-Holzland-Kreis,DEG0J,"    816,97",   84 001,   41 645,   42 356,    103
+16075,Landkreis,Saale-Orla-Kreis,DEG0K,"   1 148,39",   83 654,   41 176,   42 478,    73
+16076,Landkreis,Greiz,DEG0L,"    843,54",   102 167,   50 178,   51 989,    121
+16077,Landkreis,Altenburger Land,DEG0M,"    569,09",   93 605,   45 795,   47 810,    164
+,,Kreisfreie Städte,,"    826,29",   548 083,   265 170,   282 913,    663
+,,Landkreise,,"   15 346,28",  1 612 757,   798 494,   814 263,    105
+,,Insgesamt,,"   16 172,57",  2 160 840,  1 063 664,  1 097 176,    134
+,Deutschland,,,,,,,
+,,Kreisfreie Städte,,"   15 796,98",  25 719 040,  12 491 834,  13 227 206,   1 628
+,,Landkreise,,"   341 535,86",  55 048 423,  27 065 245,  27 983 178,    161
+,,Insgesamt,,"   357 332,84",  80 767 463,  39 557 079,  41 210 384,    226
+,,,,,,,,
+,,,,,,,,
+"1) Rheinland-Pfalz: Ohne  ""Gemeinsames deutsch-luxemburgisches  Hoheitsgebiet (6,20 km2)"".",,,,,,,,
+"     Mecklenburg-Vorpommern: Ohne ""Küstengewässer einschl. Anteil am Festlandsockel (1,00 km2)"".",,,,,,,,
+     Abweichungen bei den Flächenangaben sind durch Runden der Zahlen möglich.,,,,,,,,
+"2) Vorläufige Ergebnisse auf Grundlage des Zensus 2011, Zensusdaten mit dem Stand vom 10.04.2014.",,,,,,,,

@@ -1,0 +1,9 @@
+/**
+ * @author Thorsten Eberding
+ */
+
+.labelSitze text {
+	font-size: 0.6em;
+	font-weight: bold;
+	font-family: arial;
+}

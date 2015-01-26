@@ -1,0 +1,193 @@
+/**
+ * @author Thorsten Eberding
+ */
+
+/* ==========================================================================
+   svg graphic styles:
+   ========================================================================== */
+
+html {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Linke {
+	fill: purple;
+}
+
+h2.title, h4.subtitle {
+	color: gray;
+	/*font-family: sans-serif;*/
+}
+h2.title {
+	font-size: 1.5em;
+	margin-bottom: 0em;}
+	
+h4.subtitle {
+	font-size: 0.8em;
+	font-weight: normal;
+	margin-top: 0em;}
+
+/*** responsive ***/
+.svg-container {
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	padding-bottom: 100%;
+	vertical-align: middle;
+	overflow: hidden;
+}
+
+.chart {
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+/******************/
+
+.chart rect,
+.chart circle,
+.chart .bar {
+  fill: steelblue;
+}
+
+.chart rect:hover,
+.chart circle:hover,
+.chart .bar:hover,
+.chart .bar.negative {
+  fill: brown;
+}
+
+.chart path.pie:hover,
+.chart path.slice:hover,
+path.wahlkreis:hover,
+.node circle:hover {
+	opacity: 0.7;
+}
+
+.chart rect.active {fill: green;}
+
+.chart text {
+  fill: grey;
+  font-weight: bold;
+  font-size: 11px;
+  text-anchor: middle;
+}
+
+.chart text.inside {
+	fill: white;
+	font-weight: bold;
+}
+
+.bubble text {
+	font-size: 9px;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font-size: 10px;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.axis text {
+    font-size: 11px;
+}
+
+svg {padding: 20px 0 0 30px;}
+
+svg.donut {	
+	margin-top: -50px;
+}
+
+path.slice{
+	stroke-width:2px;
+}
+
+polyline{
+	opacity: .3;
+	stroke: black;
+	fill: none;
+}
+
+control {
+	float: right;
+    margin: -60px 50px 0 0;
+    top: -50px;
+}
+
+.button-small {
+	font-size: 60%;
+ }
+ 
+ div.tool_tip {   
+  position: absolute;           
+  text-align: center;           
+  width: 50px;                  
+  height: 14px;                 
+  padding: 2px;             
+  font-size: 12px;        
+  background: white;   
+  border: 0px;      
+  border-radius: 2px;           
+  pointer-events: none;         
+}
+ 
+ /********* MAP *************/
+svg.deutschland {
+	fill: #fafafa;
+	stroke: none;
+ }
+
+.wahlkreis.1 { fill: #ddc; }
+.wahlkreis.2 { fill: #cdd; }
+.wahlkreis.3 { fill: #cdc; }
+.wahlkreis.4 { fill: #dcd; }
+
+
+.wahlkreis-boundary {
+  fill: none;
+  stroke: #D8D8D8;
+  stroke-width: 0.5px;
+}
+
+text {
+  /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-size: 10px;
+  pointer-events: none;
+}
+
+.wahlkreis-label {
+  fill: #777;
+  fill-opacity: .8;
+  font-size: 6px;
+  font-weight: normal;
+  text-anchor: middle;
+}
+
+.place,
+.place-label {
+  fill: #444;
+}
+
+svg.deutschland .wk-189 {fill: steelblue;}
+svg.deutschland .wk-190 {fill: blue;}
+svg.deutschland .wk-191 {fill: lightblue;}
+svg.deutschland .wk-192 {fill: lightblue;}
+svg.deutschland .wk-193 {fill: steelblue;}
+svg.deutschland .wk-194 {fill: purple;}
+
+/****************************************/
+

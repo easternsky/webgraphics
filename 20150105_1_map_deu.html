@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <title>Deutschlandkarte</title>
+  <style>
+  	path.kreis {
+  		stroke: gray;
+  		stroke-width: 0.125px;
+  		fill: white;
+  	}
+  	path.land {
+  		stroke: gray;
+  		stroke-width: 0.5px;
+  		fill: none;
+  	}
+
+  </style>
+  <body>
+  	<script src="http://d3js.org/d3.v3.min.js"></script>
+  	<script src="http://d3js.org/topojson.v0.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="js/chroma.min.js"></script>
+    
+  	<script>
+  	
+  		var width = 600, height = 500;
+  		var projection = d3.geo.mercator().center([19, 51]).scale(2000).rotate([0, 0]);
+  		var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
+  		var path = d3.geo.path().projection(projection);
+  		var g = svg.append("g");
+  		
+  		var bind_data, tot;
+  		
+  		
+  		var scale = chroma.scale(['#abc', '#900']).domain([0, 400], 7);
+  		
+  		queue()
+      .defer(d3.json, "map/kreise_laender.topojson")
+      .defer(d3.csv, "data/csv.csv") // 'r1', 'r2', ... 'r9'
+      .await(ready);
+      
+  		function ready(error, topology, csv) {
+  		  	  
+    		// topojson: ermittle Spaltenüberschriften und davon 1. Spalte
+        //var headerRowTopology = Object.keys(topology[0]);  // damit werden Spaltenüberschriften automatisch ausgelesen
+        //var keyColumnTopology = headerRowTopology[0]; // nur "RS"
+        // csv: ermittle Spaltenüberschriften und davon 1. Spalte
+        var headerRowCsv = Object.keys(csv[0]);  // damit werden Spaltenüberschriften automatisch ausgelesen
+        var keyColumnCsv = headerRowCsv[0]; // nur "r1"
+    
+        // Funktionen: lösche Zeilen ohne id
+        //function cleanEmptyRowsTopo(item) {return item[keyColumnTopology] > 0;}; // für topology
+        function cleanEmptyRowsCsv(item) {return item[keyColumnCsv] > 0;}; // für csv
+        
+        // lösche Zeilen ohne id
+        //topology = topology.map( function(d) {return d;}); //.filter(cleanEmptyRowsTopo);
+        csv = csv.map( function(d) {return d;}).filter(cleanEmptyRowsCsv);
+        
+        var currValue = csv.map(function(d) {return d.r9;});
+        
+        function trimArray(arr) {
+            for(i=0;i<arr.length;i++) {
+                arr[i] = +arr[i].replace(/\s/g, "");
+            }
+            return arr;
+        }
+
+        currValue = trimArray(currValue);
+        console.log(currValue);
+        //for (i = 0; i < currValue.length; i++) {
+        //  currValueX[i] = currValue[i];
+          
+//          console.log(currValueX[i]);
+        //}
+//        console.log(currValue);
+        // jeweils 1. Spalte csv + topojson in array speichern
+        
+        //var keyRowTopology = topology.map( function(d) {return d[keyColumnTopology];});
+        //var keyRowTopology = topology;
+        var keyRowTopology = topology.objects.kreise.geometries.map(function(d) {return d.id;}); // Auslesen der IDs für alle Kreise in array
+        //console.log(keyRowTopology);
+        
+        var keyRowCsv = csv.map( function(d) {return d[keyColumnCsv];}); // Auslesen nur der IDs in array
+        //console.log(keyRowCsv);
+      
+      
+      // binde topojson an .kreis
+  			var kreis = g.selectAll(".kreis").data(topojson.object(topology, topology.objects.kreise).geometries).enter();
+  		
+  		// erzeuge  svg-Elemente 
+  			kreis.append("path").attr("d", path).attr("class", function(d) {
+  					return "kreis k" + d.id + " " + d.properties.GEN/*+ " value" + add_data[ind]['r9']*/;
+  				});//.style("fill", function(d) {
+  					//if (d.properties.RS >= 1000 && d.properties.RS < 2000) { // TESTWEISE BLD1 EINGEFÄRBT
+  					//	return "green";  
+  					//} // TESTWEISE BLD1 EINGEFÄRBT ENDE
+  				//});
+  				g.selectAll(".land").data(topojson.object(topology, topology.objects.bundeslaender).geometries).enter().append("path").attr("class", function(d) {
+  					return "land " + d.id + " " + d.properties.GEN;
+  				}).attr("d", path);
+  				
+  				      // Ordne id der csv-Datei zum richtigen Element mit id der topojson-Datei zu
+          function compareId(comp) {
+            
+            var currentRow = new Array();
+            var identRow = new Array();
+            var csvRow = new Array();
+            
+            csv.forEach(function(d,i){
+                  csvRow[i] = d;
+                  //console.log(csvRow[i]);
+            });
+   
+            // Abgleich von Element-id und 2. Datei-id
+            var allTags = g.selectAll(".kreis")
+            .each(function(d,i) {
+                var currentId = parseInt(d.id);
+                //var currentId = d[keyColumnTopology];               // Id des aktuellen Elements, z.zt 1 - 16077
+                //var currentId = this.__data__[keyColumnTopology]; // Id des aktuellen Elements, z.zt 1 - 16077
+                //console.log(currentId);
+                var identIndex = String(keyRowCsv.indexOf(String(currentId))); // 0 - 458
+                //console.log(keyRowCsv);
+                //console.log(identIndex);
+                currentRow = csvRow[identIndex];
+                //console.log(currentRow);          // dazu passende Datenreihe
+                //if(currentId == currentRow[keyColumnCsv]){
+                
+                //d3.select(this).append("desc").attr("class", "sub").datum(currentRow);
+                d3.select(this).datum(currentRow).style("fill", scale(5.1)); //scale(0.1)
+              });
+          };
+   
+          compareId();
+  		};
+  		
+  		function type(d) {
+  			d.value = +d.value;
+  			return d;
+  		}
+  	</script>
+  </body>
+</html> 

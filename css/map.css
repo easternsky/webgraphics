@@ -1,0 +1,64 @@
+/**
+ * @author Thorsten Eberding
+ */
+
+svg {float: left;}
+
+path.kreis {
+	stroke: gray;
+	stroke-width: 0.125px;
+	fill: white;
+}
+path.land {
+	stroke: gray;
+	stroke-width: 0.5px;
+	fill: none;
+}
+
+.hidden { 
+  display: none; 
+}
+
+.tooltip {
+	font-family:"MS Sans Serif";
+	font-size: 10px;
+  color: #222; 
+  background: #fff; 
+  padding: .2em; 
+  border-radius: 2px; 
+  box-shadow: 0px 0px 2px 0px #a6a6a6; 
+  opacity: 0.9; 
+  position: absolute;
+}
+
+.datafield {
+	font-family:sans-serif;
+	font-size: 10px;
+}
+
+.datafield .title {
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.datafields.label {
+	color:#777777;
+}
+
+.datafields.value {
+	font-weight: bold;
+}
+
+text {
+  pointer-events: none;
+  text-anchor: middle;
+  font: 12px sans-serif;
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+text.mouseenter,
+text.mouseleave {
+  fill: red;
+  font-weight: bold;
+}
+

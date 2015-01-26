@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <title>Daten einlesen 2 Dateien</title>
+</head>
+<style>
+circle {
+  stroke: grey;
+  stroke-width: 0.125px;
+  fill: lightgrey;
+}
+</style>
+<body>
+  <h4>Testdatei: Einlesen von 2 Dateien, Einfügen der zusätzlichen Daten in child-Element</h4>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v0.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script>
+	 
+	 var width = 600,
+	    height = 500;
+	 var svg = d3.select("body").append("svg")
+	    .attr("width", width)
+	    .attr("height", height);
+	 var g = svg.append("g");
+    
+		queue()
+//    .defer(d3.json, "map/kreise_laender.topojson")
+    .defer(d3.csv, "data/test.csv")  // stellvertretend für topojson-Datei, 'R1', 'R2'
+    .defer(d3.csv, "data/csv.csv") // 'r1', 'r2', ... 'r9'
+    .await(ready);
+  
+  function ready(error, topology, csv) {
+  	
+    // topojson: ermittle Spaltenüberschriften und davon 1. Spalte
+    var headerRowTopology = Object.keys(topology[0]);  // damit werden Spaltenüberschriften automatisch ausgelesen
+    var keyColumnTopology = headerRowTopology[0]; // nur "RS"
+    // csv: ermittle Spaltenüberschriften und davon 1. Spalte
+    var headerRowCsv = Object.keys(csv[0]);  // damit werden Spaltenüberschriften automatisch ausgelesen
+    var keyColumnCsv = headerRowCsv[0]; // nur "r1"
+
+    // Funktionen: lösche Zeilen ohne id
+  	function cleanEmptyRowsTopo(item) {return item[keyColumnTopology] > 0;}; // für topology
+  	function cleanEmptyRowsCsv(item) {return item[keyColumnCsv] > 0;}; // für csv
+    
+    // lösche Zeilen ohne id
+	  topology = topology.map( function(d) {return d;}).filter(cleanEmptyRowsTopo);
+    csv = csv.map( function(d) {return d;}).filter(cleanEmptyRowsCsv);
+
+    // jeweils 1. Spalte csv + topojson in array speichern
+    var keyRowTopology = topology.map( function(d) {return d[keyColumnTopology];});
+    //console.log(keyRowTopology);
+    var keyRowCsv = csv.map( function(d) {return d[keyColumnCsv];}); // Auslesen nur der IDs in array
+    //console.log(keyRowCsv);
+    
+    var erg;
+      
+    // binde topojson an .kreis
+  	var kreis = g.selectAll(".kreis")
+		.data(topology)
+		.enter();
+    
+    // erzeuge  svg-Elemente 
+	   kreis.append("circle")
+		.attr("id", function(d,i) {
+				erg = d[keyColumnTopology];
+				return erg;
+				})
+			.attr("cx", function(d,i) {
+				return (i);
+				})	
+			 .attr("r", "20")
+			 .attr("cy", function(d,i) {
+				erg = d[keyColumnTopology];
+				//console.log(erg);
+				return (erg / 50);
+				});
+			 //.append("desc");
+			
+			// Ordne id der csv-Datei zum richtigen Element mit id der topojson-Datei zu
+        function compareId(comp) {
+          
+          var currentRow = new Array();
+          var identRow = new Array();
+          var csvRow = new Array();
+          
+          csv.forEach(function(d,i){
+                csvRow[i] = d;
+                //console.log(csvRow[i]);
+          });
+ 
+		      // Abgleich von Element-id und 2. Datei-id
+          var allTags = g.selectAll("circle")
+          .each(function(d,i) {
+              var currentId = d[keyColumnTopology];               // Id des aktuellen Elements, z.zt 1 - 16077
+              //var currentId = this.__data__[keyColumnTopology]; // Id des aktuellen Elements, z.zt 1 - 16077
+              //console.log(currentId);
+              var identIndex = String(keyRowCsv.indexOf(currentId)); // 0 - 458
+			        //console.log(identIndex);
+			        currentRow = csvRow[identIndex];
+			        //console.log(currentRow);          // dazu passende Datenreihe
+              //if(currentId == currentRow[keyColumnCsv]){
+              d3.select(this).append("desc").datum(currentRow);
+              //}
+            });
+        };
+ 
+        compareId();
+    };
+
+	</script>
+</body>

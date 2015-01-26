@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+	path.kreis {
+		stroke: white;
+		stroke-width: 0.125px;
+		fill: lightgrey;
+	}
+	path.land {
+		stroke: white;
+		stroke-width: 0.5px;
+		fill: none;
+	}
+</style>
+<body>
+	<script src="http://d3js.org/d3.v3.min.js"></script>
+	<script src="http://d3js.org/topojson.v0.min.js"></script>
+	<script>
+		var width = 600, height = 500;
+		var projection = d3.geo.mercator().center([19, 51]).scale(2000).rotate([0, 0]);
+		var svg = d3.select("body").append("svg").attr("width", width).attr("height", height);
+		var path = d3.geo.path().projection(projection);
+		var g = svg.append("g");
+		var bind_data, tot;
+		
+		function map() {
+			d3.json("map/kreise_laender.topojson", function(error, topology) {
+				g.selectAll(".kreis").data(topojson.object(topology, topology.objects.kreise).geometries).enter().append("path").attr("d", path).attr("class", function(d) {
+					return "kreis k" + d.id + " " + d.properties.GEN/*+ " value" + add_data[ind]['r9']*/;
+				}).style("fill", function(d) {
+					if (d.properties.RS >= 1000 && d.properties.RS < 2000) {
+						return "green";
+					} else {
+						return "white";
+					}
+				});
+				g.selectAll(".land").data(topojson.object(topology, topology.objects.bundeslaender).geometries).enter().append("path").attr("class", function(d) {
+					return "land " + d.id + " " + d.properties.GEN;
+				}).attr("d", path);
+			});
+		};
+		
+		var add_data = {};
+		var new_data = new Array();
+		
+		d3.csv("data/04Kreise.csv", function(error, data) {
+			//  var headerRow = Object.keys(data[0]);                  // damit könnten Spaltenüberschriften automatisch ausgelesen werden
+			//  console.log(headerRow);
+			/*
+			new_data = data.map(function(d) {
+			return {
+			key: d['r1'], name: (!d['r3']) ? d['r2'] : d['r3'], wert: d['r9']
+			};*/
+			// funktioniert: add_data = data.map(function(d) {return {key: d['r1'], name: d['r3'], value: d['r9']};});
+			add_data = data.map(function(d) {
+				return {
+					key : d['r1'],
+					name : d['r3'],
+					value : d['r9']
+				};
+			});
+			/*
+			var nest = d3.nest()
+			.key(function(d) { return d['r1']; })
+			.entries(data);
+			*/
+			/*
+			var nest = d3.nest()
+			.key(function(d) { return d['r3']; })
+			.map(data);
+			console.debug(nest['r3']);
+			*/
+			//alert(JSON.stringify(nest));
+			tot = add_data.length;
+			/*
+			add_data1 = data.map(function(d) {return [d['r1'], d['r3'], d['r9']];});
+			new_data.key = data.map(function(d) {return d['r1'];});
+			new_data.name = data.map(function(d) {return (!d['r3']) ? d['r2'] : d['r3'];});
+			new_data.wert = data.map(function(d) {return d['r9'];});
+			*/
+			//console.log( +d['r1'] );
+			//  	    if (d['r1']=='2000') {
+			//        console.log( d['r9'] );
+			//    }
+			/*
+			 new_data = data.map(function(d) {
+			 return {key: d['r1'], name: (!d['r3']) ? d['r2'] : d['r3'], wert: d['r9']};
+			 });
+			 */
+			//showData();
+			map();
+		});
+		
+		function showData() {
+			//add_data.forEach(function(item) {
+			//return console.log(item);
+			//};
+			var x = "1054";
+			/*for (var i = 0; i < tot; i++) {
+			(add_data[i]['key'] == x) ? console.log(add_data[i]['name'] + ': ' + add_data[i]['value']) : "" ;
+			};*/
+			//console.log(add_data[8]['key']);
+			//var z = add_data[0].indexOf(x);
+			var a = add_data;
+			//console.log("Index: " + z);
+			//console.log(add_data[z]['key']);
+			//console.log(add_data);
+			//var keys = Object.keys(add_data[0]);
+			//console.log(keys[1]);
+			/*
+			 for(var propertyName in new_data.name) {
+			 console.log(propertyName);
+			 }
+			 //console.log(add_data.length);
+			 //console.log(new_data.length);
+			 //console.log(new_data);
+			 //console.log(add_data.filter(function (kreis) { return add_data.key == "1001"; }));
+			 // => [{ "name": "john", "dinner": "sushi" }]
+			 //add_data.filter(function (output) {
+			 //return output.wert ;
+			 //var output;
+			 //add_data.prototype.wert;
+			 //add_data.forEach(function(wert) {
+			 //	console.log(add_data.wert);
+			 //});
+		};
+		/*
+		d3.csv("data/04Kreise.csv", function(error, items) {
+		d3.selectAll("g")
+		.data(items)
+		.enter()
+		.select(function(d) {return ("k" + d.r1);});
+		//		 .append("path")
+		//		 .style("fill", "green");
+		//function(d,i) {return console.log("k" + d.r1);};
+		.attr("class", function(d) { return d3.select(this).attr("class") + " " + d.r9; });
+		d3.selectAll("path").each( function(d, i){
+		if(d.r1 == 1058){
+		console.log( d3.select(this).get("class") );
+		}
+		});
+		//.data(items.filter(function(item){
+		//	return (item.r1, item.r9);}))
+		//.select(function(d,i) {return d[i].r9;});
+		//.select(".01059");
+		//items.filter(function(item) { return (item.r1); }));//.attr("class", function(d) { return d3.select(this).attr("class") + " " + d.r9; });
+		//console.log(d3.select(this).attr("class"));
+		});
+		/*
+		showData(transit);
+		var globaldata;
+		function showData(item9) {
+		//console.log(items);
+		globaldata = item9;
+		//	globaldata.filter(function(globaldatum) {
+		//	  		return (globaldatum.r9);
+		//	  });
+		console.log(globaldata);
+		}
+		/*
+		d3.csv("data/04Kreise.csv", function(error, items) {
+		g.selectAll("path")
+		.data(items.filter(function(item){
+		return (item.r1, item.r9);}))
+		.classList.contains(function(d) { return d.r1; }).attr("class", function(d) { return d3.select(this).attr("class") + " " + d.r9; });
+		});
+		/*
+		var data;
+		d3.text("data/04Kreise.csv", function(unparsedData) {
+		data = d3.csv.parseRows(unparsedData);
+		data = data.filter(function(item){
+		return (item[1], item.r9);});
+		showData(data);
+		});
+		function showData(data) {
+		console.log(data);
+		}
+		/*
+		add_data = d3.csv("data/04Kreise.csv")
+		.row(function(d) { return {key: d.r1, name: d.r3, value: d.r9}; })
+		.get(function(error, rows) {
+		//    	console.log(rows);
+		return additionals = rows;
+		});
+		/*, function(error, items) {
+		items.filter(function(item){
+		return (item.r1, item.r9);});
+		});*/
+		/*
+		console.log(additionals);
+		/*
+		d3.csv("data/04Kreise.csv", type, function(error, data) {
+		//console.log(data);
+		g.selectAll(".kreis")
+		.data(function(d) { return {key: d.r1, name: d.r3, value: d.r9}; })
+		.enter()
+		.append("path")
+		.classed(d.r9)
+		//		if(function(d,i) {return d;})
+		//		.attr("d", path);
+		});
+		*/
+		/*
+		});
+		*/
+		/*
+		d3.csv("data/04Kreise.csv")
+		.row(function(d) { return {key: d.r1, name: d.r3, value: d.r9}; })
+		.get(function(error, rows) { console.log(rows);
+		});
+		*/
+		//console.log(items);
+		// prints [ {id: 2 }, { id: 4} ]
+		};
+		
+		function type(d) {
+			d.value = +d.value;
+			return d;
+		}
+	</script>
+</body>
+</html> 
